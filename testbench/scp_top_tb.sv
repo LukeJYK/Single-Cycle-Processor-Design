@@ -4,8 +4,8 @@ reg clk;
 reg rstb;
 
 parameter clk_period = 10;
-parameter instr_file_name = "./data/sort_corrected_branch.dat";
-parameter data_file_name = "./data/sort_corrected_branch.dat";
+parameter instr_file_name = "./data/unsigned_sum.dat";
+parameter data_file_name = "./data/unsigned_sum.dat";
 
 scp_top #(
 	.instr_file_name(instr_file_name), 
@@ -50,7 +50,7 @@ integer j = 0;
 integer k = 0;
 integer c = 0;
 initial begin:write_log_file
-	status_log = $fopen("sort_corrected_branch_status_log.txt","w");
+	status_log = $fopen("unsigned_sum_status_log.txt","w");
 	forever begin
 		fork
 			begin

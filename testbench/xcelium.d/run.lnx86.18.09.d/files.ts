@@ -50,5 +50,5 @@
 1637190764 /home/xchen/projects/cpu/361/1gp/alu/full_adder_1bit.v
 1637192037 /home/xchen/projects/cpu/361/1gp/scp/mux_8_1_32bit_fix.v
 1637214461 /home/xchen/projects/cpu/361/1gp/scp/sram_fix.v
-1637216404 /home/xchen/projects/cpu/361/1gp/testbench/scp_top_tb.sv
+1637223060 /home/xchen/projects/cpu/361/1gp/testbench/scp_top_tb.sv
 1637190789 /home/xchen/projects/cpu/361/1gp/lib/nor_gate.v

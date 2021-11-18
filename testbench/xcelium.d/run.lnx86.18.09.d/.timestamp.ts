@@ -1,5 +1,5 @@
 1637190473 /home/xchen/projects/cpu/361/1gp/scp/register_file.v
-1637216404 /home/xchen/projects/cpu/361/1gp/testbench/scp_top_tb.sv
+1637223060 /home/xchen/projects/cpu/361/1gp/testbench/scp_top_tb.sv
 1637190473 /home/xchen/projects/cpu/361/1gp/scp/scp_controller.v
 1637191928 /home/xchen/projects/cpu/361/1gp/alu/ALU.v
 1637193194 /home/xchen/projects/cpu/361/1gp/scp/instr_fetch_unit.v
