@@ -1,0 +1,12 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+clk	scp_top_tb.v	/^reg clk;$/;"	r
+clk_period	scp_top_tb.v	/^parameter clk_period = 10;$/;"	c
+data_file_name	scp_top_tb.v	/^parameter data_file_name = ".\/data\/unsigned_sum.dat";$/;"	c
+instr_file_name	scp_top_tb.v	/^parameter instr_file_name = ".\/data\/unsigned_sum.dat";$/;"	c
+rstb	scp_top_tb.v	/^reg rstb;$/;"	r
+scp_top_tb	scp_top_tb.v	/^module scp_top_tb;$/;"	m

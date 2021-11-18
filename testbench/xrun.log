@@ -1,0 +1,2167 @@
+xrun: 18.09-s016: (c) Copyright 1995-2019 Cadence Design Systems, Inc.
+TOOL:	xrun	18.09-s016: Started on Nov 18, 2021 at 01:24:20 CST
+xrun
+	-gui
+	-notimingcheck
+	-f moduleList.f
+		/home/xchen/projects/cpu/361/1gp/scp/*.v
+		/home/xchen/projects/cpu/361/1gp/lib/or_gate.v
+		/home/xchen/projects/cpu/361/1gp/lib/and_gate.v
+		/home/xchen/projects/cpu/361/1gp/lib/not_gate.v
+		/home/xchen/projects/cpu/361/1gp/lib/xor_gate.v
+		/home/xchen/projects/cpu/361/1gp/lib/mux_32.v
+		/home/xchen/projects/cpu/361/1gp/lib/nor_gate.v
+		/home/xchen/projects/cpu/361/1gp/alu/ALU.v
+		/home/xchen/projects/cpu/361/1gp/alu/mux8_1_1bit.v
+		/home/xchen/projects/cpu/361/1gp/alu/mux.v
+		/home/xchen/projects/cpu/361/1gp/alu/nor_32bit.v
+		/home/xchen/projects/cpu/361/1gp/alu/SLT_signed.v
+		/home/xchen/projects/cpu/361/1gp/alu/sll_32bit.v
+		/home/xchen/projects/cpu/361/1gp/alu/SLT.v
+		/home/xchen/projects/cpu/361/1gp/alu/or_gate_32.v
+		/home/xchen/projects/cpu/361/1gp/alu/SUB_32bit.v
+		/home/xchen/projects/cpu/361/1gp/alu/and_gate_32.v
+		/home/xchen/projects/cpu/361/1gp/alu/full_adder_32bit.v
+		/home/xchen/projects/cpu/361/1gp/alu/full_adder_1bit.v
+	-access r
+	-xmelab_args "-delay_mode zero -maxdelays"
+	scp_top_tb.sv
+	-s
+file: /home/xchen/projects/cpu/361/1gp/scp/sram_fix.v
+        1'h2 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,44|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h3 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,45|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h4 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,46|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h5 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,47|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h6 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,48|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h7 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,49|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h8 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,50|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h9 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,51|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'ha : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,52|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hb : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,53|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hc : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,54|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hd : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,55|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'he : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,56|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hf : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,57|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hA : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,58|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hB : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,59|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hC : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,60|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hD : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,61|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hE : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,62|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hF : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,63|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        initiate();
+                 |
+xmvlog: *W,TMTPAR (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,173|17): A task enable with no arguments must not include an empty set of parentheses [10.2.2 (IEEE Std 1364-2005)].  The compiler has ignored the parentheses.  Use 'xmhelp xmvlog TMTPAR'  for further information.
+        checkRAM();
+                 |
+xmvlog: *W,TMTPAR (/home/xchen/projects/cpu/361/1gp/scp/sram_fix.v,178|17): A task enable with no arguments must not include an empty set of parentheses [10.2.2 (IEEE Std 1364-2005)].  The compiler has ignored the parentheses.  Use 'xmhelp xmvlog TMTPAR'  for further information.
+file: /home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v
+        1'h2 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,45|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h3 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,46|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h4 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,47|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h5 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,48|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h6 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,49|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h7 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,50|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h8 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,51|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'h9 : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,52|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'ha : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,53|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hb : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,54|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hc : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,55|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hd : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,56|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'he : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,57|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hf : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,58|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hA : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,59|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hB : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,60|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hC : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,61|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hD : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,62|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hE : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,63|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        1'hF : hex = 1;
+           |
+xmvlog: *W,INTOVF (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,64|11): bit overflow during conversion from text [2.5(IEEE)] (1 bits).
+        initiate();
+                 |
+xmvlog: *W,TMTPAR (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,172|17): A task enable with no arguments must not include an empty set of parentheses [10.2.2 (IEEE Std 1364-2005)].  The compiler has ignored the parentheses.  Use 'xmhelp xmvlog TMTPAR'  for further information.
+        checkRAM();
+                 |
+xmvlog: *W,TMTPAR (/home/xchen/projects/cpu/361/1gp/scp/syncram_fix.v,177|17): A task enable with no arguments must not include an empty set of parentheses [10.2.2 (IEEE Std 1364-2005)].  The compiler has ignored the parentheses.  Use 'xmhelp xmvlog TMTPAR'  for further information.
+file: /home/xchen/projects/cpu/361/1gp/lib/nor_gate.v
+	module worklib.nor_gate:v
+		errors: 0, warnings: 0
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+adder_32bit adder_branchzero(
+                           |
+xmelab: *W,CUVWSP (../scp/instr_fetch_unit.v,66|27): 2 output ports were not connected:
+xmelab: (../scp/adder_32bit.v,9): cout
+xmelab: (../scp/adder_32bit.v,10): overflow
+
+adder_32bit adder_pc_plus4(
+                         |
+xmelab: *W,CUVWSP (../scp/instr_fetch_unit.v,73|25): 2 output ports were not connected:
+xmelab: (../scp/adder_32bit.v,9): cout
+xmelab: (../scp/adder_32bit.v,10): overflow
+
+	Top level design units:
+		syncram_fix
+		scp_top_tb
+xmelab: *W,DSEMEL: This SystemVerilog design will be simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		worklib.nor_gate:v <0x589f752a>
+			streams:   0, words:     0
+		worklib.mux_32:v <0x588b3227>
+			streams:   2, words:   522
+		worklib.mux8_1_32bit:v <0x701a0405>
+			streams:   3, words:   297
+		worklib.ALU:v <0x48839f05>
+			streams:   2, words:   455
+		worklib.scp_top_tb:sv <0x712e9ee6>
+			streams:   9, words:  7689
+		worklib.scp_top:v <0x2dd05001>
+			streams:   5, words:   697
+		worklib.sram_fix:v <0x773b6a0b>
+			streams:  13, words: 13775
+	Building instance specific data structures.
+	Loading native compiled code:     .................... Done
+	Design hierarchy summary:
+		                  Instances  Unique
+		Modules:               1812      34
+		Registers:              111      58
+		Scalar wires:          1540       -
+		Expanded wires:         335      12
+		Vectored wires:          46       -
+		Always blocks:           38       7
+		Initial blocks:          29      22
+		Parallel blocks:          1       1
+		Cont. assignments:       32      44
+		Pseudo assignments:      12      12
+		Simulation timescale:   1ps
+	Writing initial simulation snapshot: worklib.syncram_fix:v
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+xcelium> 
+xcelium> source /tools/cadence/2017/XCELIUM1809/tools/xcelium/files/xmsimrc
+xcelium> 
+-------------------------------------
+Relinquished control to SimVision...
+# Restoring simulation environment...
+xcelium> input -quiet .reinvoke.sim
+xcelium> file delete .reinvoke.sim
+xcelium> reset
+xmsim: *W,DSEM2009: This SystemVerilog design is simulated as per IEEE 1800-2009 SystemVerilog simulation semantics. Use -disable_sem2009 option for turning off SV 2009 simulation semantics.
+Loaded snapshot worklib.syncram_fix:v
+xcelium> run
+Now initializing sram
+Addr is written: 00400020
+Data is written: 20021000
+Addr is written: 00400024
+Data is written: 00421400
+Addr is written: 00400028
+Data is written: 20440024
+Addr is written: 0040002c
+Data is written: 20450028
+Addr is written: 00400030
+Data is written: 8c470000
+Addr is written: 00400034
+Data is written: 20430004
+Addr is written: 00400038
+Data is written: 8c610000
+Addr is written: 0040003c
+Data is written: 00e1302a
+Addr is written: 00400040
+Data is written: 1cc00003
+Addr is written: 00400044
+Data is written: ac410000
+Addr is written: 00400048
+Data is written: ac670000
+Addr is written: 0040004c
+Data is written: 00203820
+Addr is written: 00400050
+Data is written: 20630004
+Addr is written: 00400054
+Data is written: 1465fff8
+Addr is written: 00400058
+Data is written: 20420004
+Addr is written: 0040005c
+Data is written: 1444fff4
+Addr is written: 10000000
+Data is written: 00000009
+Addr is written: 10000004
+Data is written: 0000000a
+Addr is written: 10000008
+Data is written: 00000008
+Addr is written: 1000000c
+Data is written: 00000007
+Addr is written: 10000010
+Data is written: 00000005
+Addr is written: 10000014
+Data is written: 00000006
+Addr is written: 10000018
+Data is written: 00000004
+Addr is written: 1000001c
+Data is written: 00000001
+Addr is written: 10000020
+Data is written: 00000002
+Addr is written: 10000024
+Data is written: 00000003
+Addr is checking: 00400020
+Data is checking: 20021000
+Addr is checking: 00400024
+Data is checking: 00421400
+Addr is checking: 00400028
+Data is checking: 20440024
+Addr is checking: 0040002c
+Data is checking: 20450028
+Addr is checking: 00400030
+Data is checking: 8c470000
+Addr is checking: 00400034
+Data is checking: 20430004
+Addr is checking: 00400038
+Data is checking: 8c610000
+Addr is checking: 0040003c
+Data is checking: 00e1302a
+Addr is checking: 00400040
+Data is checking: 1cc00003
+Addr is checking: 00400044
+Data is checking: ac410000
+Addr is checking: 00400048
+Data is checking: ac670000
+Addr is checking: 0040004c
+Data is checking: 00203820
+Addr is checking: 00400050
+Data is checking: 20630004
+Addr is checking: 00400054
+Data is checking: 1465fff8
+Addr is checking: 00400058
+Data is checking: 20420004
+Addr is checking: 0040005c
+Data is checking: 1444fff4
+Addr is checking: 10000000
+Data is checking: 00000009
+Addr is checking: 10000004
+Data is checking: 0000000a
+Addr is checking: 10000008
+Data is checking: 00000008
+Addr is checking: 1000000c
+Data is checking: 00000007
+Addr is checking: 10000010
+Data is checking: 00000005
+Addr is checking: 10000014
+Data is checking: 00000006
+Addr is checking: 10000018
+Data is checking: 00000004
+Addr is checking: 1000001c
+Data is checking: 00000001
+Addr is checking: 10000020
+Data is checking: 00000002
+Addr is checking: 10000024
+Data is checking: 00000003
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Now initializing sram
+Addr is written: 00400020
+Data is written: 20021000
+Addr is written: 00400024
+Data is written: 00421400
+Addr is written: 00400028
+Data is written: 20440024
+Addr is written: 0040002c
+Data is written: 20450028
+Addr is written: 00400030
+Data is written: 8c470000
+Addr is written: 00400034
+Data is written: 20430004
+Addr is written: 00400038
+Data is written: 8c610000
+Addr is written: 0040003c
+Data is written: 00e1302a
+Addr is written: 00400040
+Data is written: 1cc00003
+Addr is written: 00400044
+Data is written: ac410000
+Addr is written: 00400048
+Data is written: ac670000
+Addr is written: 0040004c
+Data is written: 00203820
+Addr is written: 00400050
+Data is written: 20630004
+Addr is written: 00400054
+Data is written: 1465fff8
+Addr is written: 00400058
+Data is written: 20420004
+Addr is written: 0040005c
+Data is written: 1444fff4
+Addr is written: 10000000
+Data is written: 00000009
+Addr is written: 10000004
+Data is written: 0000000a
+Addr is written: 10000008
+Data is written: 00000008
+Addr is written: 1000000c
+Data is written: 00000007
+Addr is written: 10000010
+Data is written: 00000005
+Addr is written: 10000014
+Data is written: 00000006
+Addr is written: 10000018
+Data is written: 00000004
+Addr is written: 1000001c
+Data is written: 00000001
+Addr is written: 10000020
+Data is written: 00000002
+Addr is written: 10000024
+Data is written: 00000003
+Addr is checking: 00400020
+Data is checking: 20021000
+Addr is checking: 00400024
+Data is checking: 00421400
+Addr is checking: 00400028
+Data is checking: 20440024
+Addr is checking: 0040002c
+Data is checking: 20450028
+Addr is checking: 00400030
+Data is checking: 8c470000
+Addr is checking: 00400034
+Data is checking: 20430004
+Addr is checking: 00400038
+Data is checking: 8c610000
+Addr is checking: 0040003c
+Data is checking: 00e1302a
+Addr is checking: 00400040
+Data is checking: 1cc00003
+Addr is checking: 00400044
+Data is checking: ac410000
+Addr is checking: 00400048
+Data is checking: ac670000
+Addr is checking: 0040004c
+Data is checking: 00203820
+Addr is checking: 00400050
+Data is checking: 20630004
+Addr is checking: 00400054
+Data is checking: 1465fff8
+Addr is checking: 00400058
+Data is checking: 20420004
+Addr is checking: 0040005c
+Data is checking: 1444fff4
+Addr is checking: 10000000
+Data is checking: 00000009
+Addr is checking: 10000004
+Data is checking: 0000000a
+Addr is checking: 10000008
+Data is checking: 00000008
+Addr is checking: 1000000c
+Data is checking: 00000007
+Addr is checking: 10000010
+Data is checking: 00000005
+Addr is checking: 10000014
+Data is checking: 00000006
+Addr is checking: 10000018
+Data is checking: 00000004
+Addr is checking: 1000001c
+Data is checking: 00000001
+Addr is checking: 10000020
+Data is checking: 00000002
+Addr is checking: 10000024
+Data is checking: 00000003
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Addr is checking: xxxxxxxx
+Data is checking: xxxxxxxx
+Writing to dout:          x
+READ Addr FOUND!: 00400020
+Writing to dout:  537006080
+Writing to dout:          x
+READ Addr FOUND!: 00400024
+Writing to dout:    4330496
+READ Addr FOUND!: 10000000
+Writing to dout:          9
+READ Addr FOUND!: 00400028
+Writing to dout:  541327396
+Writing to dout:          9
+READ Addr FOUND!: 10000024
+Writing to dout:          3
+READ Addr FOUND!: 0040002c
+Writing to dout:  541392936
+Writing to dout:          3
+READ Addr FOUND!: 00400030
+Writing to dout: 2353463296
+READ Addr FOUND!: 10000000
+Writing to dout:          9
+READ Addr FOUND!: 00400034
+Writing to dout:  541261828
+READ Addr FOUND!: 10000004
+Writing to dout:         10
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000004
+Writing to dout:         10
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:         10
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:         10
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000008
+Writing to dout:          8
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 1000000c
+Writing to dout:          7
+Writing to dout:          7
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000008
+Writing to dout:          8
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          8
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          8
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000000
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000008
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          8
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 1000000c
+Writing to dout:          7
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000010
+Writing to dout:          5
+Writing to dout:          5
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 1000000c
+Writing to dout:          7
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          7
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          7
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000000
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000000c
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          7
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000010
+Writing to dout:          5
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000014
+Writing to dout:          6
+Writing to dout:          6
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000010
+Writing to dout:          5
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          5
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          5
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000000
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000010
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          5
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000014
+Writing to dout:          6
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000018
+Writing to dout:          4
+Writing to dout:          4
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000014
+Writing to dout:          6
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          6
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          6
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000018
+Writing to dout:          4
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 1000001c
+Writing to dout:          1
+Writing to dout:          1
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000018
+Writing to dout:          4
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          4
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          4
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000000
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000018
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          4
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 1000001c
+Writing to dout:          1
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000020
+Writing to dout:          2
+Writing to dout:          2
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 1000001c
+Writing to dout:          1
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          1
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          1
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000000
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000001c
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          1
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000020
+Writing to dout:          2
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000024
+Writing to dout:          3
+Writing to dout:          3
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000020
+Writing to dout:          2
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          2
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          2
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000024
+Writing to dout:          3
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          3
+Writing to dout:          3
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000024
+Writing to dout:          3
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          3
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          3
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+Writing to dout:          3
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          3
+Writing to dout:          3
+READ Addr FOUND!: 00400058
+Writing to dout:  541196292
+READ Addr FOUND!: 10000004
+Writing to dout:         10
+READ Addr FOUND!: 0040005c
+Writing to dout:  340066292
+READ Addr FOUND!: 10000008
+Writing to dout:          9
+Writing to dout:          9
+READ Addr FOUND!: 00400030
+Writing to dout: 2353463296
+READ Addr FOUND!: 10000004
+Writing to dout:         10
+READ Addr FOUND!: 00400034
+Writing to dout:  541261828
+READ Addr FOUND!: 10000008
+Writing to dout:          9
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000008
+Writing to dout:          9
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          9
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          9
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000004
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000008
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          9
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 1000000c
+Writing to dout:          8
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000010
+Writing to dout:          7
+Writing to dout:          7
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 1000000c
+Writing to dout:          8
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          8
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          8
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000004
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000000c
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          8
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000010
+Writing to dout:          7
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000014
+Writing to dout:          6
+Writing to dout:          6
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000010
+Writing to dout:          7
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          7
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          7
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000004
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000010
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          7
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000014
+Writing to dout:          6
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000018
+Writing to dout:          5
+Writing to dout:          5
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000014
+Writing to dout:          6
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          6
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          6
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000004
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000014
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          6
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000018
+Writing to dout:          5
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 1000001c
+Writing to dout:          4
+Writing to dout:          4
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000018
+Writing to dout:          5
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          5
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          5
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000004
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000018
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          5
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 1000001c
+Writing to dout:          4
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000020
+Writing to dout:          2
+Writing to dout:          2
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 1000001c
+Writing to dout:          4
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          4
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          4
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000004
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000001c
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          4
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000020
+Writing to dout:          2
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000024
+Writing to dout:          3
+Writing to dout:          3
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000020
+Writing to dout:          2
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          2
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          2
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000004
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000020
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          2
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000024
+Writing to dout:          3
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          3
+Writing to dout:          3
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000024
+Writing to dout:          3
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          3
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          3
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+Writing to dout:          3
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          3
+Writing to dout:          3
+READ Addr FOUND!: 00400058
+Writing to dout:  541196292
+READ Addr FOUND!: 10000008
+Writing to dout:         10
+READ Addr FOUND!: 0040005c
+Writing to dout:  340066292
+READ Addr FOUND!: 1000000c
+Writing to dout:          9
+Writing to dout:          9
+READ Addr FOUND!: 00400030
+Writing to dout: 2353463296
+READ Addr FOUND!: 10000008
+Writing to dout:         10
+READ Addr FOUND!: 00400034
+Writing to dout:  541261828
+READ Addr FOUND!: 1000000c
+Writing to dout:          9
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 1000000c
+Writing to dout:          9
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          9
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          9
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000008
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000000c
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          9
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000010
+Writing to dout:          8
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000014
+Writing to dout:          7
+Writing to dout:          7
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000010
+Writing to dout:          8
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          8
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          8
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000008
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000010
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          8
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000014
+Writing to dout:          7
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000018
+Writing to dout:          6
+Writing to dout:          6
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000014
+Writing to dout:          7
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          7
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          7
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000008
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000014
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          7
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000018
+Writing to dout:          6
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 1000001c
+Writing to dout:          5
+Writing to dout:          5
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000018
+Writing to dout:          6
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          6
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          6
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000008
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000018
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          6
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 1000001c
+Writing to dout:          5
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000020
+Writing to dout:          4
+Writing to dout:          4
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 1000001c
+Writing to dout:          5
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          5
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          5
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000008
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000001c
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          5
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000020
+Writing to dout:          4
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000024
+Writing to dout:          3
+Writing to dout:          3
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000020
+Writing to dout:          4
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          4
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          4
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000008
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000020
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          4
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000024
+Writing to dout:          3
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          3
+Writing to dout:          3
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000024
+Writing to dout:          3
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          3
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          3
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000008
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000024
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          3
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+Writing to dout:          3
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          3
+Writing to dout:          3
+READ Addr FOUND!: 00400058
+Writing to dout:  541196292
+READ Addr FOUND!: 1000000c
+Writing to dout:         10
+READ Addr FOUND!: 0040005c
+Writing to dout:  340066292
+READ Addr FOUND!: 10000010
+Writing to dout:          9
+Writing to dout:          9
+READ Addr FOUND!: 00400030
+Writing to dout: 2353463296
+READ Addr FOUND!: 1000000c
+Writing to dout:         10
+READ Addr FOUND!: 00400034
+Writing to dout:  541261828
+READ Addr FOUND!: 10000010
+Writing to dout:          9
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000010
+Writing to dout:          9
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          9
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          9
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000000c
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000010
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          9
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000014
+Writing to dout:          8
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000018
+Writing to dout:          7
+Writing to dout:          7
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000014
+Writing to dout:          8
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          8
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          8
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000000c
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000014
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          8
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000018
+Writing to dout:          7
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 1000001c
+Writing to dout:          6
+Writing to dout:          6
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000018
+Writing to dout:          7
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          7
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          7
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000000c
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000018
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          7
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 1000001c
+Writing to dout:          6
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000020
+Writing to dout:          5
+Writing to dout:          5
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 1000001c
+Writing to dout:          6
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          6
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          6
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000000c
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000001c
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          6
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000020
+Writing to dout:          5
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000024
+Writing to dout:          4
+Writing to dout:          4
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000020
+Writing to dout:          5
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          5
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          5
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000000c
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000020
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          5
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000024
+Writing to dout:          4
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          4
+Writing to dout:          4
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000024
+Writing to dout:          4
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          4
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          4
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000000c
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000024
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          4
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+Writing to dout:          4
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          4
+Writing to dout:          4
+READ Addr FOUND!: 00400058
+Writing to dout:  541196292
+READ Addr FOUND!: 10000010
+Writing to dout:         10
+READ Addr FOUND!: 0040005c
+Writing to dout:  340066292
+READ Addr FOUND!: 10000014
+Writing to dout:          9
+Writing to dout:          9
+READ Addr FOUND!: 00400030
+Writing to dout: 2353463296
+READ Addr FOUND!: 10000010
+Writing to dout:         10
+READ Addr FOUND!: 00400034
+Writing to dout:  541261828
+READ Addr FOUND!: 10000014
+Writing to dout:          9
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000014
+Writing to dout:          9
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          9
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          9
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000010
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000014
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          9
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000018
+Writing to dout:          8
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 1000001c
+Writing to dout:          7
+Writing to dout:          7
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000018
+Writing to dout:          8
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          8
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          8
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000010
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000018
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          8
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 1000001c
+Writing to dout:          7
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000020
+Writing to dout:          6
+Writing to dout:          6
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 1000001c
+Writing to dout:          7
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          7
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          7
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000010
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000001c
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          7
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000020
+Writing to dout:          6
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000024
+Writing to dout:          5
+Writing to dout:          5
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000020
+Writing to dout:          6
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          6
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          6
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000010
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000020
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          6
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000024
+Writing to dout:          5
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          5
+Writing to dout:          5
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000024
+Writing to dout:          5
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          5
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          5
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000010
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000024
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          5
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+Writing to dout:          5
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          5
+Writing to dout:          5
+READ Addr FOUND!: 00400058
+Writing to dout:  541196292
+READ Addr FOUND!: 10000014
+Writing to dout:         10
+READ Addr FOUND!: 0040005c
+Writing to dout:  340066292
+READ Addr FOUND!: 10000018
+Writing to dout:          9
+Writing to dout:          9
+READ Addr FOUND!: 00400030
+Writing to dout: 2353463296
+READ Addr FOUND!: 10000014
+Writing to dout:         10
+READ Addr FOUND!: 00400034
+Writing to dout:  541261828
+READ Addr FOUND!: 10000018
+Writing to dout:          9
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000018
+Writing to dout:          9
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          9
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          9
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000014
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000018
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          9
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 1000001c
+Writing to dout:          8
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000020
+Writing to dout:          7
+Writing to dout:          7
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 1000001c
+Writing to dout:          8
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          8
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          8
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000014
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000001c
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          8
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000020
+Writing to dout:          7
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000024
+Writing to dout:          6
+Writing to dout:          6
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000020
+Writing to dout:          7
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          7
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          7
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000014
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000020
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          7
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000024
+Writing to dout:          6
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          6
+Writing to dout:          6
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000024
+Writing to dout:          6
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          6
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          6
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000014
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000024
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          6
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+Writing to dout:          6
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          6
+Writing to dout:          6
+READ Addr FOUND!: 00400058
+Writing to dout:  541196292
+READ Addr FOUND!: 10000018
+Writing to dout:         10
+READ Addr FOUND!: 0040005c
+Writing to dout:  340066292
+READ Addr FOUND!: 1000001c
+Writing to dout:          9
+Writing to dout:          9
+READ Addr FOUND!: 00400030
+Writing to dout: 2353463296
+READ Addr FOUND!: 10000018
+Writing to dout:         10
+READ Addr FOUND!: 00400034
+Writing to dout:  541261828
+READ Addr FOUND!: 1000001c
+Writing to dout:          9
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 1000001c
+Writing to dout:          9
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          9
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          9
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000018
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000001c
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          9
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000020
+Writing to dout:          8
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+READ Addr FOUND!: 10000024
+Writing to dout:          7
+Writing to dout:          7
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000020
+Writing to dout:          8
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          8
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          8
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000018
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000020
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          8
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000024
+Writing to dout:          7
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          7
+Writing to dout:          7
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000024
+Writing to dout:          7
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          7
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          7
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000018
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000024
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          7
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+Writing to dout:          7
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          7
+Writing to dout:          7
+READ Addr FOUND!: 00400058
+Writing to dout:  541196292
+READ Addr FOUND!: 1000001c
+Writing to dout:         10
+READ Addr FOUND!: 0040005c
+Writing to dout:  340066292
+READ Addr FOUND!: 10000020
+Writing to dout:          9
+Writing to dout:          9
+READ Addr FOUND!: 00400030
+Writing to dout: 2353463296
+READ Addr FOUND!: 1000001c
+Writing to dout:         10
+READ Addr FOUND!: 00400034
+Writing to dout:  541261828
+READ Addr FOUND!: 10000020
+Writing to dout:          9
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000020
+Writing to dout:          9
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          9
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          9
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000001c
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000020
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          9
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+READ Addr FOUND!: 10000024
+Writing to dout:          8
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          8
+Writing to dout:          8
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000024
+Writing to dout:          8
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          8
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          8
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 1000001c
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000024
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          8
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+Writing to dout:          8
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          8
+Writing to dout:          8
+READ Addr FOUND!: 00400058
+Writing to dout:  541196292
+READ Addr FOUND!: 10000020
+Writing to dout:         10
+READ Addr FOUND!: 0040005c
+Writing to dout:  340066292
+READ Addr FOUND!: 10000024
+Writing to dout:          9
+Writing to dout:          9
+READ Addr FOUND!: 00400030
+Writing to dout: 2353463296
+READ Addr FOUND!: 10000020
+Writing to dout:         10
+READ Addr FOUND!: 00400034
+Writing to dout:  541261828
+READ Addr FOUND!: 10000024
+Writing to dout:          9
+READ Addr FOUND!: 00400038
+Writing to dout: 2355167232
+READ Addr FOUND!: 10000024
+Writing to dout:          9
+READ Addr FOUND!: 0040003c
+Writing to dout:   14757930
+Writing to dout:          9
+READ Addr FOUND!: 00400040
+Writing to dout:  482344963
+Writing to dout:          9
+READ Addr FOUND!: 00400044
+Writing to dout: 2889940992
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000020
+READ Addr FOUND!: 00400048
+Writing to dout: 2892431360
+holy shift
+fxxking sram
+WRITE Addr FOUND!: 10000024
+READ Addr FOUND!: 0040004c
+Writing to dout:    2111520
+Writing to dout:          9
+READ Addr FOUND!: 00400050
+Writing to dout:  543358980
+Writing to dout:          9
+READ Addr FOUND!: 00400054
+Writing to dout:  342228984
+Writing to dout:          9
+Writing to dout:          9
+READ Addr FOUND!: 00400058
+Writing to dout:  541196292
+READ Addr FOUND!: 10000024
+Writing to dout:         10
+READ Addr FOUND!: 0040005c
+Writing to dout:  340066292
+Writing to dout:         10
+Writing to dout:         10
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Writing to dout:  340066292
+Simulation complete via $finish(1) at time 5025 NS + 0
+./scp_top_tb.sv:34 $finish;
+xcelium> 

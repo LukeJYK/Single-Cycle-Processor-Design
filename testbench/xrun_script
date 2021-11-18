@@ -1,0 +1,19 @@
+annotation	 -gui -notimingcheck -f moduleList.f -access r -xmelab_args "-delay_mode zero -maxdelays" uartDecoderSim.v
+
+
+
+xrun -gui -notimingcheck -f moduleList.f -access r -xmelab_args "-delay_mode zero -maxdelays" scp_top_tb.sv 
+
+xrun -gui -notimingcheck -f moduleList.f -access r -xmelab_args "-delay_mode zero -maxdelays" alu_test.v
+
+
+no annotation 	 -gui -notimingcheck -f MANN_top.f -access r -xmelab_args "-warnmax 0 -delay_mode zero -maxdelays" MANN_top_tb.v -s
+
+
+
+
+xrun -notimingcheck -gui -access rw -sdfstats temp -sdf_verbose -warnmax 0 -delay_mode none -typdelays testbench_conv1_1_4b_backannotation.sv /home/xchen/projects/tdsp/innovus/tsmc65nm_lp/xc_pim_9_1/cnn_top_nophy.v /data/technology/TSMC/65nm/65nm_LP_IP_ARM/arm/tsmc/cln65lp/sc8_base_rvt/r0p0/verilog/sc8_cln65lp_base_rvt_neg.v /data/technology/TSMC/65nm/65nm_LP_IP_ARM/arm/tsmc/cln65lp/sc8_base_rvt/r0p0/verilog/sc8_cln65lp_base_rvt_udp.v /home/xchen/projects/tdsp/pim_rtl/testbench/pim_tb_9_1/common.sv /home/xchen/projects/tdsp/pim_rtl/testbench/pim_tb_9_1/analog_mac.v /home/xchen/projects/tdsp/pim_rtl/testbench/pim_tb_9_1/analog_macArray.v 
+
+
+
+/data/technology/TSMC/65nm/65nm_LP_IP_ARM/arm/tsmc/cln65lp/sc8_base_lvt/r0p0/verilog/sc8_cln65lp_base_lvt_neg.v /data/technology/TSMC/65nm/65nm_LP_IP_ARM/arm/tsmc/cln65lp/sc8_base_lvt/r0p0/verilog/sc8_cln65lp_base_lvt_udp.v  
