@@ -10,5 +10,4 @@ moduleList.f
 r
 -xmelab_args
 "-delay_mode zero -maxdelays"
-scp_top_tb.sv
--s
+scp_top_tb_sort.sv

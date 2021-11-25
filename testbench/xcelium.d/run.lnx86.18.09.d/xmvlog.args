@@ -38,7 +38,7 @@
 /home/xchen/projects/cpu/361/1gp/alu/and_gate_32.v
 /home/xchen/projects/cpu/361/1gp/alu/full_adder_32bit.v
 /home/xchen/projects/cpu/361/1gp/alu/full_adder_1bit.v
-scp_top_tb.sv
+scp_top_tb_sort.sv
 -CDSLIB
 ./xcelium.d/run.lnx86.18.09.d/cdsrun.lib
 -HDLVAR

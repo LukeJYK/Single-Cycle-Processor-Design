@@ -67,3 +67,6 @@ s62::(18Nov2021:01:24:20):( xrun -gui -notimingcheck -f moduleList.f -access r -
 s63::(18Nov2021:02:03:33):( xrun -gui -notimingcheck -f moduleList.f -access r -xmelab_args "-delay_mode zero -maxdelays" scp_top_tb.sv -s )
 s64::(18Nov2021:02:06:28):( xrun -gui -notimingcheck -f moduleList.f -access r -xmelab_args "-delay_mode zero -maxdelays" scp_top_tb.sv )
 s65::(18Nov2021:02:11:23):( xrun -gui -notimingcheck -f moduleList.f -access r -xmelab_args "-delay_mode zero -maxdelays" scp_top_tb.sv "-s " )
+s66::(18Nov2021:13:05:58):( xrun -gui -notimingcheck -f moduleList.f -access r -xmelab_args "-delay_mode zero -maxdelays" scp_top_tb_sum.sv )
+s67::(18Nov2021:13:09:14):( xrun -gui -notimingcheck -f moduleList.f -access r -xmelab_args "-delay_mode zero -maxdelays" scp_top_tb_bills.sv )
+s68::(18Nov2021:13:10:01):( xrun -gui -notimingcheck -f moduleList.f -access r -xmelab_args "-delay_mode zero -maxdelays" scp_top_tb_sort.sv )

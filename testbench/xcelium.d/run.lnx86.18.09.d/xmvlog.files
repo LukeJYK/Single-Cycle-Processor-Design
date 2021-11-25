@@ -35,4 +35,4 @@
 /home/xchen/projects/cpu/361/1gp/alu/and_gate_32.v
 /home/xchen/projects/cpu/361/1gp/alu/full_adder_32bit.v
 /home/xchen/projects/cpu/361/1gp/alu/full_adder_1bit.v
-/home/xchen/projects/cpu/361/1gp/testbench/scp_top_tb.sv
+/home/xchen/projects/cpu/361/1gp/testbench/scp_top_tb_sort.sv

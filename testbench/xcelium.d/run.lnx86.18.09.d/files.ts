@@ -52,3 +52,6 @@
 1637214461 /home/xchen/projects/cpu/361/1gp/scp/sram_fix.v
 1637223060 /home/xchen/projects/cpu/361/1gp/testbench/scp_top_tb.sv
 1637190789 /home/xchen/projects/cpu/361/1gp/lib/nor_gate.v
+1637262025 /home/xchen/projects/cpu/361/1gp/testbench/scp_top_tb_sum.sv
+1637262079 /home/xchen/projects/cpu/361/1gp/testbench/scp_top_tb_bills.sv
+1637262162 /home/xchen/projects/cpu/361/1gp/testbench/scp_top_tb_sort.sv
